@@ -162,14 +162,39 @@ nav{
         font-weight: lighter;
     }
     
-  .custom-btn {
-    background-color: #ff5733; /* Warna custom */
-    color: white; /* Warna teks */
-  }
-    
 
     .card_body {
         background-color: rgb(226, 165, 165);
+    }
+
+    .button-container {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        height: 20vh; /* Full height of the viewport */
+    }
+
+    .custom-button {
+        background-color: #ffffff; /* Light pink background */
+        color: #7B6453; /* Brownish text color */
+        border: none; /* Remove border */
+        border-radius: 50px; /* Rounded edges */
+        padding: 20px 30px; /* Padding for size */
+        font-size: 20px; /* Text size */
+        cursor: pointer; /* Pointer on hover */
+        outline: none; /* Remove outline on focus */
+        font-family: Arial, sans-serif; /* Font style */
+        width: 18%;
+    }
+
+    .circle { 
+            width: 200px;
+            height: 200px;
+            background-color: #FA879E;
+            border-radius: 50%;
+            border: #7B6453;
+            position: absolute;
+            right: 0%;
     }
 
 
