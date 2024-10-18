@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skintific Product Page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- link css -->
+    <link rel="stylesheet" href="perproduk.css" />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="container-img-fluid img-produk">
+          <img
+            src="img/skintipic-removebg-preview.png"
+            alt="Skintific 3x Acid Acne Gel Cleanser"
+            class="product-image"
+          />
+        </div>
+        <div style="margin-top: 3rem" class="container-deskripsi-fluid">
+          <div class="txt-produk">
+            <h2>SKINTIFIC</h2>
+            <h4>Skintific 3x Acid Acne Gel Cleanser 120ML</h4>
+            <h3>IDR 121,000.00</h3>
+            <div class="mt-3">
+              <button
+                style="border-radius: 1.5rem"
+                class="btn-add btn-outline me-2"
+              >
+                Add To Cart
+              </button>
+              <button style="border-radius: 1.5rem" class="btn btn-primary">
+                Buy Now
+              </button>
+            </div>
+
+            <ul
+              class="geser nav nav-pills mt-4"
+              style="background-color: #ffefef"
+              id="myTab"
+              role="tablist"
+            >
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link active"
+                  style="border-radius: 1.5rem; color: #705c53"
+                  id="description-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#description"
+                  type="button"
+                  role="tab"
+                >
+                  Description
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  style="border-radius: 1.5rem; color: #705c53"
+                  id="how-to-use-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#how-to-use"
+                  type="button"
+                  role="tab"
+                >
+                  How To Use
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link"
+                  style="border-radius: 1.5rem"
+                  id="ingredients-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#ingredients"
+                  type="button"
+                  role="tab"
+                >
+                  Ingredients
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button
+                  class="nav-link "
+                  style="border-radius: 1.5rem"
+                  id="for-who-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#for-who"
+                  type="button"
+                  role="tab"
+                >
+                  For Who
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div class="tab-content mt-3" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="description"
+              role="tabpanel"
+            >
+              <p>tes tes tes</p>
+            </div>
+            <div class="tab-pane fade" id="how-to-use" role="tabpanel">
+              <p>Instructions on how to use the product will go here.</p>
+            </div>
+            <div class="tab-pane fade" id="ingredients" role="tabpanel">
+              <p>List of ingredients will be displayed here.</p>
+            </div>
+            <div class="tab-pane fade" id="for-who" role="tabpanel">
+              <p>
+                Information about the target audience for this product will be
+                shown here.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

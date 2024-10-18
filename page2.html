@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Your Skin Goals</title>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+        
+        <link rel="font-awesome" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <link rel="stylesheet" href="perproduk.css">
+
+
+</head>
+
+<body>
+   
+        <style>
+            body {
+                overflow-x: hidden;
+                margin: 0;
+                height: 100vh;
+                background-color: #ffffff;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }
+        </style>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+        
+            <div class="container-fluid nav_logo">
+                <a style="text-decoration: none;" href="#">Your<span>Skin<span>Goals</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../KATALOG/page3.html">Skincare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Bodycare</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="">Haircare</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-line" style="padding-right: 20vh; color: #705C53; font-size: 4vh;"></i></a>
+            <a href="#"><i class="ri-menu-line" style="padding-right: 10vh; color: #705C53; font-size: 4vh;"></i></a>
+        </nav>
+
+
+        <div class="container mt-5">
+            <div class="row">
+              <div class="container-img-fluid img-produk">
+                <img
+                  src="assets/image/cosrx.webp"
+                  alt="Skintific 3x Acid Acne Gel Cleanser"
+                  class="product-image"
+                />
+              </div>
+              <div style="margin-top: 3rem" class="container-deskripsi-fluid">
+                <div class="txt-produk">
+                  <h2>COSRX</h2>
+                  <h4>COSRX Low pH Good Morning Cleanser - 50 ML</h4>
+                  <h3>IDR 58,000.00</h3>
+                  <div class="mt-3">
+                    <button
+                      style="border-radius: 1.5rem; padding: 7px 9px;"
+                      class="btn-add btn-outline me-3"
+                    >
+                      Add To Card
+                    </button>
+                    <button style="border-radius: 1.5rem;border-color: #705C53;background-color:  #FA879E; padding: 7px 30px;" class="btn btn-primary">
+                      Buy Now
+                    </button>
+                  </div>
+      
+                  <ul
+                    class="geser nav nav-pills mt-4"
+                    style="background-color: #ffefef"
+                    id="myTab"
+                    role="tablist"
+                  >
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link active"
+                        style="border-radius: 1.5rem; color: #705c53;"
+                        id="description-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#description"
+                        type="button"
+                        role="tab"
+                      >
+                        Description
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link "
+                        style="border-radius: 1.5rem; color: #705c53"
+                        id="how-to-use-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#how-to-use"
+                        type="button"
+                        role="tab"
+                      >
+                        How To Use
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link "
+                        style="border-radius: 1.5rem;
+                        color: #705c53"
+                        id="ingredients-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#ingredients"
+                        type="button"
+                        role="tab"
+                      >
+                        Ingredients
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button
+                        class="nav-link"
+                        style="border-radius: 1.5rem;
+                        color: #705c53"
+                        id="for-who-tab"
+                        data-bs-toggle="tab"
+                        data-bs-target="#for-who"
+                        type="button"
+                        role="tab"
+                      >
+                        For Who
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+      
+                <div class="tab-content mt-3" id="myTabContent">
+                  <div
+                    class="tab-pane fade show active"
+                    id="description"
+                    role="tabpanel">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam inventore voluptates iure commodi odit temporibus cupiditate quibusdam maxime quae neque! Officiis sit aliquam, velit id mollitia voluptates eligendi facere dolor! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec eleifend mi. Suspendisse non euismod sapien. Ut molestie nisi a maximus pulvinar. Vestibulum pretium fringilla augue, et auctor ligula mattis nec. Phasellus ullamcorper lacus lectus, eu sollicitudin sapien semper non. Curabitur cursus facilisis tincidunt. Duis suscipit lectus nec egestas semper. In nulla nulla, venenatis id urna ut, viverra tristique enim. Phasellus hendrerit nunc eros, eu lobortis magna tincidunt at. Mauris leo tortor, dictum at commodo sed, condimentum vitae nunc. Sed congue leo eu mattis condimentum. Vestibulum ullamcorper risus id ornare dapibus. Nullam tempus magna purus.</p>
+                  </div>
+                  <div class="tab-pane fade" id="how-to-use" role="tabpanel">
+                    <p>Instructions on how to use the product will go here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="ingredients" role="tabpanel">
+                    <p>List of ingredients will be displayed here.</p>
+                  </div>
+                  <div class="tab-pane fade" id="for-who" role="tabpanel">
+                    <p>
+                      Information about the target audience for this product will be
+                      shown here.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <section class="ulasan mt-4">
+
+                  <div class="container-riviw-fluid">
+                    <div class="row">
+                      <h1>Product Review</h1>
+                      
+                    </div>
+                </div>
+                <br>
+                <div class="container-ulasan">
+                  <div class="row">
+                    <div class="col">
+                        <h1>    
+                      5.00/5
+                       </h1>
+                       <div class="stars" style="color: #FFD233; margin-left: 4rem; 
+                       font-size: 30px;">
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <i class="ri-star-fill"></i>
+                        <p>Dari banyak penilaian</p>
+                       </div>
+                      </div>
+                       <div class="col">
+                        <div class="txt-ulasan">  
+                       <p>Sudah pernah menggunakan e-commerce ini?</p>
+                       <button style="border-radius: 1.5rem;border-color: #705C53;background-color:  #FA879E; padding: 7px 30px;" class="btn btn-primary">
+                        Tulis Ulasanmu
+                      </button>
+                       </div>
+                      </div>
+                        </div>
+                      </div>
+
+                      <div class="container-review-fluid" style="margin-top: 70px;">
+                        <div class="row">
+                           <div class="col">
+                            <div class="profile">
+                              <i class="ri-user-fill"></i>
+                              <div class="profile-info">
+                                <p class="name">lorem ipsum</p>
+                                <p>03 oktober 2024</p>
+                              </div>
+                            </div>
+                           </div>
+                           <div class="col">
+                            <div class="details">
+                              <span>tipe kulit</span>
+                              <span class="value">Berminyak</span>
+                              <span>lama pengguna</span>
+                              <span class="value">3 tahun</span>
+                            </div>
+                           </div>
+                        </div>
+                      </div>
+                      </div>
+                  </div>
+                </section>
+            </div>
+          </div>
+          
+           
+          </div>
+    <body>
+    </html>

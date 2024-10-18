@@ -1,0 +1,107 @@
+body {
+    overflow: hidden;
+}
+
+.container-product h1{
+    text-align: center;
+    color: #FA879E;
+    font-family: "Lustria", serif;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
+
+.product-image {
+    display: flex;
+    gap: 20px;
+    margin-right: 200px;
+}
+
+.product-image img {
+    width: 407px;
+    height: 407px;
+}
+
+
+.product-description{
+    text-align: start;
+
+}
+
+.product-description h1{
+    font-size: 15px;
+    max-width: 500px;
+    color: #705C53;
+}
+
+.product-description p {
+    color: #b07074;
+}
+
+.avos-image img {
+    width: 407px;
+    height: 407px;
+}
+
+
+/* .tab-pane p {
+    background-color: #FFEFEF;
+    text-align: start;
+    font-weight: 400;
+  }
+  .geser {
+    border: solid 1.5px;
+    border-radius: 1.5rem;
+    gap: 50px;
+  }
+  .nav-list li {
+    list-style: none;
+  }
+  .navlink .active:hover{
+    background-color: #fa879e;
+  }
+  
+  .nav-link:hover {
+    background-color: #fa879e;
+  }
+  
+  .txt-produk h2 {
+    color: #705c53;
+  }
+  .txt-produk h4 {
+    color: #705c53;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .txt-produk h3 {
+    color: #fa879e;
+    font-size: 20px;
+  }
+  
+  .btn-add {
+    border: solid 0.5px;
+    transition: all 0.3s;
+    animation: ease-in;  
+    
+  }
+  
+  .btn-add:hover {
+    background-color: #fa879e;
+    color: #fff;
+  }
+  
+  
+   .geser .nav-link:hover {
+    background-color: #fa879e;
+    color: #721c24;            
+  }
+  
+  
+  .geser .nav-link.active {
+    background-color: #fa879e; 
+    color: #004085;            
+  } */

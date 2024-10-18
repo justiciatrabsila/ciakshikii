@@ -14,6 +14,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 a {
@@ -105,7 +106,7 @@ nav{
     }
 
     .container p{
-        color: #767268;
+        color: #705C53;
         font-weight: 100;
         /* font-size: 30px; */
     }
@@ -138,17 +139,15 @@ nav{
 
     body {
         font-family: Arial, sans-serif;
-
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-color: #B7B7B7; /* light pink background */
+        background-color: #000000; /* light pink background */
     }
     
     .container3 {
         display: flex;
-        /* border: 2px solid blue; Blue border around the container */
-        padding: 10px;
+        padding: 98px;
     }
     
     .box {
@@ -166,6 +165,23 @@ nav{
     .card_body {
         background-color: rgb(226, 165, 165);
     }
+
+    .col-box{
+        background-color: #EDDFE0;
+        cursor: pointer;
+    }
+    .txt-box a{
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        color: #705C53;
+        
+    }
+    .box{
+    
+    }
+
 
     .button-container {
         display: flex;
@@ -192,10 +208,105 @@ nav{
             height: 200px;
             background-color: #FA879E;
             border-radius: 50%;
-            border: #7B6453;
             position: absolute;
             right: 0%;
+           border: 3px solid #7B6453;
     }
+    .circle2 { 
+            width: 105px;
+            height: 105px;
+            background-color: #F3D0D7;
+            border-radius: 50%;
+            position: absolute;
+            right: 0%;
+           border: 2px solid #7B6453;
+    }
+    .circle3 { 
+            width: 149px;
+            height: 149px;
+            background-color: #FFEFEF;
+            border-radius: 50%;
+            position: absolute;
+            right: 0%;
+            border: 2px solid #7B6453;
+    
+    }
+
+    .footer {
+        background-color: #f8c3cc; /* Pink background */
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-family: Arial, sans-serif;
+        color: #333;
+      }
+      
+      .footer-section {
+        flex: 1;
+        margin: 0 20px;
+      }
+      
+      .footer-section h3 {
+        font-size: 18px;
+        color: #e3708c; /* Matching the pink shade */
+      }
+      
+      .footer-section ul {
+        list-style: none;
+        padding: 0;
+      }
+      
+      .footer-section ul li {
+        margin: 10px 0;
+      }
+      
+      .footer-section ul li a {
+        text-decoration: none;
+        color: #555;
+      }
+      
+      .footer-section .social-icons {
+        display: flex;
+        gap: 10px;
+      }
+      
+      .footer-section .social-icons a {
+        width: 24px;
+        height: 24px;
+        color: #767268;
+      }
+      
+      .footer-legal {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 12px;
+      }
+
+      .container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+      }
+
+      .square {
+        width: 800px;
+        height: 650px;
+        background-color: transparent; /* Warna persegi */
+        border: 3px solid #e3708c;
+        justify-content: center;
+    }
+
+    .container2 h1 {
+        width: 10px;
+    }
+
+    .container2 p {
+        
+    }
+
+      
+      
 
 
 /************** Katalog css ***********************/

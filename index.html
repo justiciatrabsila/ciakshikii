@@ -14,12 +14,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <!-- Font Awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 
 <body>
 
     <style>
         body {
+            overflow-x: hidden;
             margin: 0;
             height: 100vh;
             background: linear-gradient(to right, #eddfe0, #f4b1bd, #ffefef, #ffefef, #f6f5f2, #f6f5f2, #eddfe0, #f4b1bd);
@@ -29,6 +33,7 @@
         }
     </style>
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+        
         <div class="container-fluid nav_logo">
             <a style="text-decoration: none;" href="#">Your<span>Skin<span>Goals</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -38,10 +43,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">New Product</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skincare</a>
+                        <a class="nav-link" href="../KATALOG/page3.html">Skincare</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Bodycare</a>
@@ -52,6 +57,8 @@
                 </ul>
             </div>
         </div>
+        <a href="#"><i class="ri-shopping-cart-line" style="padding-right: 20vh; color: #705C53; font-size: 4vh;"></i></a>
+        <a href="#"><i class="ri-menu-line" style="padding-right: 10vh; color: #705C53; font-size: 4vh;"></i></a>
     </nav>
     <div class="container-fluid">
         <div class="container1 d-flex justify-content-around">
@@ -122,8 +129,6 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
     <div class="container2" style="justify-content: center; margin-top: 10px;">
         <p style="text-align: center;">Transform Your Skin, <br>
             Transform Your World</p>
@@ -131,13 +136,28 @@
             Start your skincare routine with these skincare products and feel <br>
             the difference in your skin.
         </h6>
-        <div class="circle" style=" overflow: hidden;"></div>
-        <div class="container3" style="color: #705C53;">
-            <div class="box">filters</div>
-            <div class="box">bodycare</div>
-            <div class="box">skincare</div>
-            <div class="box">cosmetics</div>
+        <div class="bulat">
+            <div class="circle" style=" overflow: hidden; position: absolute; right: -58px; top: 1620px;"></div>
+            <div class="circle2" style=" overflow: hidden; position: absolute; left: -50px; top: 1750px;"></div>
+            <div class="circle3" style=" overflow: hidden; position: absolute; left: 60px; top: 1640px;"></div>
+            <div class="container3" style="color: #705C53;"></div>
         </div>
+        <div class="container-box">
+            <div class="box-icon text-center">
+                <div class="col-box">
+                  <h2 class="txt-box"><a href="">Filters</a></h2>
+                </div>
+                <div class="col-box">
+                  <h2 class="txt-box"><a href="">Filters</a></h2>
+                </div>
+                <div class="col-box">
+                  <h2 class="txt-box"><a href="">Filters</a></h2>
+                </div>
+                <div class="col-box">
+                  <h2 class="txt-box"><a href="">Filters</a></h2>
+                </div>
+            </div>
+          </div>
         <br>
         <div class="container">
             <div class="row">
@@ -172,7 +192,7 @@
                             <h5 class="card-title" style="color: #FFEFEF;text-align: center;">Cosrx faceWash</h5>
                             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                             <div class="d-flex justify-content-center">
-                            <a href="#" class="btn btn-primary" style="color: #FFEFEF; background-color: #FA879E; border-color: #FFEFEF;padding: 10px 20px;width: 85%;">More</a>
+                            <a href="page2.html" class="btn btn-primary" style="color: #FFEFEF; background-color: #FA879E; border-color: #FFEFEF;padding: 10px 20px;width: 85%;">More</a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +204,7 @@
                             <h5 class="card-title" style="color: #FFEFEF;text-align: center;">Cetaphil faceWash</h5>
                             <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
                             <div class="d-flex justify-content-center">
-                            <a href="#" class="btn btn-primary" style="color: #FFEFEF; background-color: #FA879E; border-color: #FFEFEF;padding: 10px 20px;width: 85%;">More</a>
+                            <a href="page2.html" class="btn btn-primary" style="color: #FFEFEF; background-color: #FA879E; border-color: #FFEFEF;padding: 10px 20px;width: 85%;">More</a>
                             </div>
                         </div>
                     </div>
@@ -216,11 +236,51 @@
             </div>
         </div>
     </div>
+
     <div class="button-container">
         <button class="custom-button"> 
-            <a style="text-decoration: none; color: #705C53 ;" href ="subfolder/page2.html">seen more</a>
+            <a style="text-decoration: none; color: #705C53 ;" href ="#">seen more</a>
         </button>
     </div>
+    <footer class="footer">
+        <div class="footer-section">
+          <h3>More Info</h3>
+          <ul>
+            <li><a href="#">Terms & Policy</a></li>
+            <li><a href="#">Shipping Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">How to order</a></li>
+          </ul>
+        </div>
+      
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p><a style="text-decoration: none;
+          color: #767268;" href="mailto:justiciatrabsila@gmail.com">justiciatrabsila@gmail.com</a></p>
+          <p><a style="text-decoration: none;
+          color: #767268;" href="#"> Business Opportunity</a></p>
+          <p><a style="text-decoration: none;
+          color: #767268;" href="#">Careers</a></p>
+        </div>
+      
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <p>Learn More</p>
+        </div>
+      
+        <div class="footer-legal">
+          <p>Layanan Pengaduan Konsumen, Direktorat Jenderal Perlindungan Konsumen dan Tertib Niaga, Kementerian Perdagangan Republik Indonesia</p>
+          <p>122-456-789 (WhatsApp)</p>
+        </div>
+      </footer>
+
+      
 </body>
 
 <!-- Main Js -->
