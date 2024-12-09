@@ -1,6 +1,5 @@
 <?php
 require_once "../config/config.php";
-    require "data.php";
 ?>
 <!doctype html>
 <html lang="en">
@@ -22,7 +21,7 @@ require_once "../config/config.php";
                     </div>
                     <div class="mb-3">
                         <label for="deskProduct">Description</label>
-                        <textarea name="description" class="form-control" placeholder="Leave a comment here" id="" for="deskProduct"></textarea>
+                        <textarea name="description" class="form-control" placeholder="Leave a comment here" id=""></textarea>
                     </div>
                     <div class="mb-3">
                         <label for="hargaProduct" class="form-label">Price</label>

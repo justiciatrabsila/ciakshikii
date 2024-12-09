@@ -1,4 +1,5 @@
 <?php 
+     $rootDir = $_SERVER['DOCUMENT_ROOT'].'/KATALOG/';
     $server = "localhost"; // nama server
     $user = "root";
     $pass = '';
@@ -10,4 +11,5 @@
         echo "Failed to connect to MySQL: " . mysqli_connect_error();
         exit();
     }
+    // echo ;
 ?>

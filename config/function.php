@@ -1,5 +1,7 @@
 <?php
 
+use LDAP\Result;
+
 function validasiData($data){
 
     foreach($data as $index => $value){
@@ -26,7 +28,7 @@ function inputData($data, $koneksi){
         return "failed";
     }
 
-    mysqli_stmt_bind_param($stmt, 'siiiis', $name, $description, $price, $Brand_id, $Category_id, $image);
+    mysqli_stmt_bind_param($stmt, 'ssiiis', $name, $description, $price, $Brand_id, $Category_id, $image);
     $result = mysqli_stmt_execute($stmt);
 
     if(!$result)
@@ -35,3 +37,26 @@ function inputData($data, $koneksi){
     mysqli_stmt_close($stmt);
     return true;
 }
+
+function viewProduct($koneksi){
+
+    $sql = "SELECT * FROM tb_product WHERE 1";
+
+    $stmt = mysqli_query($koneksi, $sql);
+
+    if(mysqli_num_rows($stmt) > 0) return mysqli_fetch_all($stmt, MYSQLI_ASSOC);
+    else return false; 
+    
+}
+
+function delProduct($koneksi, $id){
+    $sql = "DELETE FROM tb_product WHERE id = ?";
+    $stmt = mysqli_prepare($koneksi, $sql);
+
+    mysqli_stmt_bind_param($stmt, "i", $id);
+    $result = mysqli_stmt_execute($stmt);
+
+    if($result) return true;
+    else return false; 
+}
+?>
